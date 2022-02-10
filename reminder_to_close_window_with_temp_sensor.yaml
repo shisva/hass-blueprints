@@ -49,7 +49,7 @@ blueprint:
     temperature:
       name: 'Temperature'
       description: 'The outside temperature below which the notification should be sent.'
-      default: 20
+      default: 18
       selector: 
         number:
           min: 0
