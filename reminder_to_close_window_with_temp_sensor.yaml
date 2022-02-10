@@ -101,7 +101,7 @@ action:
 - device_id: !input device_identifier
   domain: mobile_app
   type: notify
-  message: 'Time to close {{trigger.to_state.attributes.friendly_name}}.'
-  title: 'Close {{trigger.to_state.attributes.friendly_name}}!'
+  message: 'Fermer {{trigger.to_state.attributes.friendly_name}}.'
+  title: 'Fermuture porte / fenêtre'
 
 mode: single
